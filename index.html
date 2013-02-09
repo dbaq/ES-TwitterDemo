@@ -7,7 +7,7 @@
     <meta name="author" content="dbaq">
 
     <!-- CSS -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <style>
         body {
             padding-top: 60px;
@@ -51,7 +51,21 @@
 		  <div class="row-fluid">
 			<div class="span2">
 			  <!--Sidebar content-->
-Sidebar here
+				<div class="">
+					<div class="">Tweeters</div>
+						<div class="">
+							<ul id="searchTweeters">
+								<li>
+									<a href="#" id="removeTweetersFilter">Tous</a>
+								</li>
+							</ul>
+						</div>
+					</div>				
+				
+			
+
+
+
 			</div>
 			<div class="span10">
 			  <!--Main content-->
@@ -64,6 +78,8 @@ Sidebar here
 					<div class="span3">
 						<span id="wait" class="label"></span>
 					</div> 
+                	<div class="span10" id="jsonRequest">
+					</div>
                 	<div class="span10">
                         <h2>Tweets</h2><p id="resultPosition"></p>
                         <table id="clients" class="table table-bordered table-condensed">
@@ -75,13 +91,7 @@ Sidebar here
                                     <th>Score</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <th>Date</th>
-                                    <th>Account</th>
-                                    <th>Tweet</th>
-                                    <th>Score</th>
-                                </tr>
+                            <tbody> 
                             </tbody>
                         </table>
                     </div>  
