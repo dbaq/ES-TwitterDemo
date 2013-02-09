@@ -63,11 +63,44 @@ Sidebar here
 					</div>
 					<div class="span3">
 						<span id="wait" class="label"></span>
+					</div> 
+                	<div class="span10">
+                        <h2>Tweets</h2>
+                        <table id="clients" class="table table-bordered table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Account</th>
+                                    <th>Tweet</th>
+                                    <th>Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Account</th>
+                                    <th>Tweet</th>
+                                    <th>Score</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>  
+					<div class="span10">
+						<ul class="pager">
+							<li><a href="#" id="previous">Previous</a></li>
+							<li><a href="#" id="next">Next</a></li>
+						</ul>
 					</div>
-				</div>
-			</div>
-	  	  </div>
-		</div>
+                </div>
+			</div>		
+
+			<div id="detail" class="modal hide fade">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>D&eacute;tail du tweet</h3>
+                </div>
+                <div class="modal-body"></div>
+            </div> 
 
 </body>
 </html>
